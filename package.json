@@ -1,0 +1,46 @@
+{
+  "name": "parcel-gulp",
+  "description": "Example with parcel and gulp",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel da Silva",
+    "url": "http://danielfdsilva.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielfdsilva/parcel-gulp.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "serve": "NODE_ENV=development gulp serve",
+    "build": "NODE_ENV=production gulp",
+    "stage": "NODE_ENV=staging gulp",
+    "clean": "gulp clean"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "@parcel/reporter-bundle-analyzer": "^2.0.0-nightly.1694",
+    "@parcel/reporter-bundle-buddy": "^2.0.0-nightly.1902",
+    "@parcel/transformer-image": "2.0.0-nightly.2312",
+    "babel-eslint": "^10.1.0",
+    "del": "^6.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-inclusive-language": "^2.1.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "fs-extra": "^10.0.0",
+    "gulp": "^4.0.2",
+    "parcel": "^2.0.0-beta.3.1",
+    "posthtml-expressions": "^1.7.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
