@@ -1,7 +1,7 @@
 {
   "name": "parcel-gulp",
-  "description": "Example with parcel and gulp",
-  "version": "1.0.0",
+  "description": "Starter application by Development Seed",
+  "version": "5.0.0",
   "author": {
     "name": "Daniel da Silva",
     "url": "http://danielfdsilva.com/"
@@ -18,26 +18,31 @@
     "clean": "gulp clean"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "^2.0.0-nightly.1694",
-    "@parcel/reporter-bundle-buddy": "^2.0.0-nightly.1902",
-    "@parcel/transformer-image": "2.0.0-nightly.2312",
-    "babel-eslint": "^10.1.0",
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@parcel/reporter-bundle-analyzer": "^2.1.1",
+    "@parcel/reporter-bundle-buddy": "^2.1.1",
+    "@parcel/transformer-image": "2.1.1",
     "del": "^6.0.0",
-    "eslint": "^7.19.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-inclusive-language": "^2.1.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-inclusive-language": "^2.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "fancy-log": "^1.3.3",
     "fs-extra": "^10.0.0",
     "gulp": "^4.0.2",
-    "parcel": "^2.0.0-beta.3.1",
-    "posthtml-expressions": "^1.7.1",
-    "prettier": "^2.2.1"
+    "parcel": "^2.1.1",
+    "portscanner": "^2.2.0",
+    "posthtml-expressions": "^1.9.0",
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "react": "^17.0.2",

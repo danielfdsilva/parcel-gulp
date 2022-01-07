@@ -1,9 +1,3 @@
-const config = {
-  appTitle: 'Parcel & Gulp',
-  appDescription: 'Example with parcel and gulp',
-
-  baseUrl: process.env.PUBLIC_URL || ''
-};
-
-// Must use module.exports to be compatible with posthtml.config.js
-module.exports = config;
+export const appTitle = process.env.APP_TITLE;
+export const appDescription = process.env.APP_DESCRIPTION;
+export const baseUrl = process.env.PUBLIC_URL || '';
